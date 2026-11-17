@@ -1,0 +1,63 @@
+{
+  "features": [
+    "pm25_lag0",
+    "pm25_lag1",
+    "pm25_lag2",
+    "pm25_lag3",
+    "pm25_lag6",
+    "pm25_lag12",
+    "pm25_lag24",
+    "pm25_lag48",
+    "pm25_lag168",
+    "pm25_mean6h",
+    "pm25_mean24h",
+    "pm10_lag0",
+    "pm10_lag24",
+    "no2_lag0",
+    "no2_lag24",
+    "so2_lag0",
+    "so2_lag24",
+    "co_lag0",
+    "co_lag24",
+    "o3_lag0",
+    "o3_lag24",
+    "station_id",
+    "horizon",
+    "base_yesterday",
+    "wx_temperature_2m",
+    "wx_relative_humidity_2m",
+    "wx_wind_speed_10m",
+    "wx_precipitation",
+    "wx_wd_sin",
+    "wx_wd_cos",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "target": "delta",
+  "config": "B",
+  "params": {
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 500,
+    "n_rounds": 400,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0
+  },
+  "quantiles": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "seed": 42,
+  "train_window": [
+    "2024-01-22",
+    "2025-10-01"
+  ],
+  "test_window": [
+    "2025-10-01",
+    "2026-01-01"
+  ],
+  "postprocess": "prediction = model output (+ pm25_lag0 if target is delta; expm1(log1p(pm25_lag0) + output) if target is logratio); then sort q10/q50/q90 per row and clip at 0"
+}

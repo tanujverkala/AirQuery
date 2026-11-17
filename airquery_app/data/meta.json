@@ -1,0 +1,38 @@
+{
+  "created": "2026-11-17T05:14:26",
+  "rows": 230168,
+  "stations": [
+    "DTU, Delhi - CPCB",
+    "IHBAS, Dilshad Garden, Delhi - CPCB",
+    "ITO, Delhi - CPCB",
+    "NSIT Dwarka, Delhi - CPCB",
+    "Shadipur, Delhi - CPCB",
+    "Sirifort, Delhi - CPCB",
+    "Wazirpur, Delhi - DPCC"
+  ],
+  "horizons": [
+    3,
+    6,
+    9,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30,
+    33,
+    36,
+    39,
+    42,
+    45,
+    48
+  ],
+  "first_target": "2025-10-01 00:00:00",
+  "last_target": "2025-12-31 23:00:00",
+  "first_origin": "2025-09-29 00:00:00",
+  "last_origin": "2025-12-31 20:00:00",
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "numpy": "2.4.6"
+}

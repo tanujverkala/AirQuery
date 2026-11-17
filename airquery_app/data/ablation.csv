@@ -1,0 +1,5 @@
+variant,fold1,fold2,fold3,mean
+"Frozen setup: no calendar features, delta target, forecast weather",0.954,0.774,0.838,0.855
+Log-ratio target instead of delta,0.954,0.769,0.829,0.851
+Without forecast-weather features,1.003,0.865,0.871,0.913
+"Calendar features kept, level target",1.637,0.816,0.856,1.103
