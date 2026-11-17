@@ -82,7 +82,6 @@ Tested with Streamlit 1.66.1, Plotly 7.1.0 and pandas 3.0.5.
 - Weather inputs are forecasts and carry their own errors. The 6-hour publication delay is an assumption.  
 - CPCB categories are applied to hourly values although they are defined for 24-hour averages.  
 - The calibration window was tuned on the same validation folds.  
-- CPCB PM2.5 categories: [https\://ies.gov.in/arthapedia/concept/national-air-quality-index](https://ies.gov.in/arthapedia/concept/national-air-quality-index) (secondary source, accessed 17 Nov 2026), applied to hourly values; not an official CPCB hourly index.  
 - Station coordinates: approximate, used only to place map markers on the website. The source table was not recorded and the values are not checked against CPCB.
 
 ## AI-use disclosure
@@ -93,11 +92,13 @@ I ran all the code myself on Google Colab and checked the printed outputs. The f
 
 ## Citations and external material
 
-- \- Data: PM2.5 and other pollutant readings for seven Delhi stations (CPCB / DPCC), \[[data-opencity](https://data.opencity.in)\], accessed October 2026\.
+- Data: PM2.5 and other pollutant readings for seven Delhi stations (CPCB / DPCC), \[[data-opencity](https://data.opencity.in)\], accessed October 2026\.
 
 - Weather: Zippenfenig, P. (2023). Open-Meteo.com Weather API (computer software). [Zenodo](https://doi.org/10.5281/ZENODO.7970649). Previous Runs API,\[[open-meteo](https://open-meteo.com)\], accessed October 2026\. Free API, used for non-commercial purposes.
 
 - Model: Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS) 30\.
+
+- CPCB PM2.5 categories: [https\://ies.gov.in/arthapedia/concept/national-air-quality-index](https://ies.gov.in/arthapedia/concept/national-air-quality-index) (secondary source, accessed 17 Nov 2026), applied to hourly values; not an official CPCB hourly index.
 
 - Software: Python, pandas, NumPy, scikit-learn, Matplotlib, Plotly, Streamlit. Website library versions are in airquery\_app/requirements.txt.
 
