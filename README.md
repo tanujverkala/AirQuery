@@ -93,7 +93,7 @@ I ran all the code myself on Google Colab and checked the printed outputs. The f
 
 ## Citations and external material
 
-- \- Data: PM2.5 and other pollutant readings for seven Delhi stations (CPCB / DPCC), \[data.opencity.in\](https\://data.opencity.in), accessed October 2026\.
+- \- Data: PM2.5 and other pollutant readings for seven Delhi stations (CPCB / DPCC), \[[data-opencity](https://data.opencity.in)\], accessed October 2026\.
 
 - Weather: Zippenfenig, P. (2023). Open-Meteo.com Weather API (computer software). [Zenodo](https://doi.org/10.5281/ZENODO.7970649). Previous Runs API,\[[open-meteo](https://open-meteo.com)\], accessed October 2026\. Free API, used for non-commercial purposes.
 
