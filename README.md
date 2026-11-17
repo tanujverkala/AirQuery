@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34971495/README.md)
 # AirQuery: 48-hour PM2.5 forecasting with uncertainty for Delhi air quality stations
 
 AirQuery forecasts hourly PM2.5 at 7 Delhi monitoring stations, 3 to 48 hours ahead (every 3 hours), and gives every forecast an 80% range (10th to 90th percentile). A "best time to go out" planner replays the October to December 2025 test period and ranks the next hours by their upper estimate.
@@ -96,13 +95,13 @@ I ran all the code myself on Google Colab and checked the printed outputs. The f
 
 - \- Data: PM2.5 and other pollutant readings for seven Delhi stations (CPCB / DPCC), \[data.opencity.in\](https\://data.opencity.in), accessed October 2026\.
 
-- Weather: Zippenfenig, P. (2023). Open-Meteo.com Weather API (computer software). Zenodo. \[https\://doi.org/10.5281/ZENODO.7970649\](https\://doi.org/10.5281/ZENODO.7970649). Previous Runs API, \[open-meteo.com\](https\://open-meteo.com), accessed October 2026\. Free API, used for non-commercial purposes (Open-Meteo terms).
+- Weather: Zippenfenig, P. (2023). Open-Meteo.com Weather API (computer software). [Zenodo](https://doi.org/10.5281/ZENODO.7970649). Previous Runs API,\[[open-meteo](https://open-meteo.com)\], accessed October 2026\. Free API, used for non-commercial purposes.
 
 - Model: Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS) 30\.
 
 - Software: Python, pandas, NumPy, scikit-learn, Matplotlib, Plotly, Streamlit. Website library versions are in airquery\_app/requirements.txt.
 
-- CPCB PM2.5 categories: secondary source, \[ies.gov.in, National Air Quality Index\](https\://ies.gov.in/arthapedia/concept/national-air-quality-index) (accessed November 2026), applied to hourly values; not an official CPCB hourly index.
+- CPCB PM2.5 categories: secondary source, \[[ies.gov.in, National Air Quality Index](https://ies.gov.in/arthapedia/concept/national-air-quality-index)\] (accessed November 2026), applied to hourly values; not an official CPCB hourly index.
 
 - Station coordinates: approximate, used only to place map markers on the website. The source table was not recorded and the values are not checked against CPCB.
 
