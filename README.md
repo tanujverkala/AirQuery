@@ -88,7 +88,7 @@ Tested with Streamlit 1.66.1, Plotly 7.1.0 and pandas 3.0.5.
 
 I used Claude (Anthropic) as a coding and writing assistant. It helped write the code for data pipeline, feature table, LightGBM quantile model, interval calibration, error analysis, the Streamlit website, the GitHub Pages page, this README and the website text.
 
-I ran all the code myself on Google Colab and checked the printed outputs. The following are the decisions I made or approved: The project question and scope; using a LightGBM quantile model; choosing rolling calibration over static calibration; testing a log-ratio target and a no-weather variant as ablations; and what to deploy and where. Result numbers on the website come from the output files of the code; the test results were copied by hand from the printed outputs. AI output was not used for: the data itself, or any of the measured results (these come from running the code). 
+I ran all the code myself on Google Colab and checked the printed outputs. The following are the decisions I made or approved: The project question and scope; using a LightGBM quantile model; choosing rolling calibration over static calibration; testing a log-ratio target and a no-weather variant as ablations; and what to deploy and where. Result numbers on the website come from the output files of the code; the ablation numbers were copied by hand from the printed outputs. AI output was not used for: the data itself, or any of the measured results (these come from running the code). 
 
 ## Citations and external material
 
