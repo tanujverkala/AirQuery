@@ -2,7 +2,7 @@
 
 Forecasts hourly PM2.5 at 7 Delhi CPCB stations, 3 to 48 hours ahead, with an 80% range (LightGBM quantile models, rolling calibration), plus a "best time to go out" planner that replays Oct to Dec 2025. The website reads only precomputed files from `data/`.
 
-Live site: `[Streamlit URL]`
+Live site: [`[Streamlit URL]`](https://airquery-n349ezf53j3qg8w6gwsoij.streamlit.app/)
 Code: https://github.com/tanujverkala/AirQuery
 
 ## Repository layout
