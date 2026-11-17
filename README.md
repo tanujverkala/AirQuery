@@ -98,8 +98,6 @@ I ran all the code myself on Google Colab and checked the printed outputs. The f
 
 - Model: Ke, G., Meng, Q., Finley, T., Wang, T., Chen, W., Ma, W., Ye, Q., and Liu, T.-Y. (2017). LightGBM: A Highly Efficient Gradient Boosting Decision Tree. Advances in Neural Information Processing Systems (NIPS) 30\.
 
-- CPCB PM2.5 categories: [https\://ies.gov.in/arthapedia/concept/national-air-quality-index](https://ies.gov.in/arthapedia/concept/national-air-quality-index) (secondary source, accessed 17 Nov 2026), applied to hourly values; not an official CPCB hourly index.
-
 - Software: Python, pandas, NumPy, scikit-learn, Matplotlib, Plotly, Streamlit. Website library versions are in airquery\_app/requirements.txt.
 
 - CPCB PM2.5 categories: secondary source, \[[ies.gov.in, National Air Quality Index](https://ies.gov.in/arthapedia/concept/national-air-quality-index)\] (accessed November 2026), applied to hourly values; not an official CPCB hourly index.
